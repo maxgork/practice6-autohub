@@ -1,0 +1,26 @@
+.counter {
+    font-size:15px;
+    color:#d0d7e3;
+    display:flex;
+    gap:10px;
+    align-items:center;
+    flex-wrap:wrap
+}
+
+.counter button {
+    padding:7px 10px;
+    border:1px solid #4a5b70;
+    background:transparent;
+    color:inherit;
+    border-radius:6px;
+    cursor:pointer
+}
+
+.counter button:disabled {
+    opacity:.4;
+    cursor:default
+}
+
+.counter button:focus-visible {
+    outline:3px solid #f7bd58
+}
